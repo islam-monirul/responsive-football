@@ -572,6 +572,7 @@
      }
 
      #newsletter-section .btn{
+          display: block;
           padding: 8px 20px;
      }
 }
