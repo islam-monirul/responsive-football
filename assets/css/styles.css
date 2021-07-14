@@ -17,7 +17,45 @@ body{
 /* -----------------------
      hero section styles 
      --------------------------------*/
+.hero-section{
+     height: 677px;
+     background-color: #2D25A0;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 100%;
+}
 
+.hero-left-content-part .hero-section-title{
+     font-size: 64px;
+     font-weight: 700;
+     line-height: 80px;
+     color: #ffffff;
+     margin-bottom: 27px;
+}
+
+.hero-image-part img{
+     width: 556px;
+}
+
+/* ------------------
+     button styles 
+---------------------------*/
+.btn{
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 16px;
+     font-weight: 500;
+     padding: 10px 24px;
+     background-color: #E02C6D;
+     transition: all 0.8s ease;
+}
+
+.btn:hover{
+     background-color: #ffffff;
+     color: #E02C6D;
+     letter-spacing: 1px;
+}
 
 /* -----------------------
      players section styles 
