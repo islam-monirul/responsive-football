@@ -1,0 +1,73 @@
+/* -----------------------
+     poppins font use from google font
+     ----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* -----------------------
+     common utilities styles 
+     --------------------------------*/
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+/* -----------------------
+     hero section styles 
+     --------------------------------*/
+
+
+/* -----------------------
+     players section styles 
+     --------------------------------*/
+
+
+/* -----------------------
+     footer styles
+     --------------------------------*/
+.footer-content{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 63px 0;
+}
+
+.footer-content .site-logo img{
+     width: 483.87px;
+     height: 110px;
+}
+
+.social-links{
+     width: 170px;
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-column-gap: 14px;
+}
+
+.social-icon-container{
+     height: 32px;
+     width: 32px;
+     background-color: #E7E7E8;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.single-icon{
+     color: #969BAB;
+     font-size: 17px;
+}
+
+.footer-content .copyright p{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 24px;
+}
+
+/* -----------------------
+     media queries
+     --------------------------------*/
