@@ -1,3 +1,5 @@
+/* designed and developed by Monirul Islam */
+
 /* -----------------------
      poppins font use from google font
      ----------------------------------*/
@@ -43,12 +45,11 @@
      hero section styles 
      --------------------------------*/
 .hero-section{
-     height: 677px;
      background-color: #2D25A0;
 }
 
 .hero-content{
-     height: inherit;
+     height: 677px;
      display: flex;
      justify-content: space-evenly;
      align-items:center;
@@ -254,6 +255,285 @@
      margin-top: 20px;
 }
 
+
 /* -----------------------
      media queries
      --------------------------------*/
+
+/* mobile device */
+@media only screen and (max-width: 600px){
+     .hero-section{
+          padding-top: 20px;
+          padding-left: 16px;
+     }
+
+     .hero-content{
+          height: 695px;
+          width: 100%;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+     }
+
+     .hero-left-content-part{
+          margin-bottom: 50px;
+     }
+
+     .hero-left-content-part #hero-section-title{
+          font-size: 36px;
+          line-height: 50px;
+          font-weight: 700;
+     }
+
+     .hero-image-part img{
+          width: 330px;
+     }
+
+     .players{
+          width: 90%;
+          grid-template-columns: repeat(1,1fr);
+     }
+
+     .match-highlights{
+          flex-direction: column;
+          align-items: flex-start;
+          width: 92%;
+     }
+
+     .match-left-side{
+          padding: 0;
+          margin-bottom: 29px;
+     }
+     .match-left-side #match-heading{
+          font-size: 30px;
+          line-height: 40px;
+          font-weight: 700;
+     }
+     
+     .match-right-side img{
+          width: 328px;
+     }
+
+     .section-title{
+          font-size: 30px;
+          line-height: 40px;
+          padding-left: 16px;
+          margin-bottom: 20px;
+     }
+
+     .latest-videos{
+          width: 92%;
+          grid-template-columns: repeat(1,1fr);
+          grid-row-gap: 10px;
+     }
+
+     #newsletter-section{
+          flex-direction: column;
+     }
+
+     .input-field input{
+          margin: 0;
+          padding: 10px 80px;
+     }
+
+     #newsletter-section .btn{
+          display: block;
+          margin-top: 10px;
+          padding: 10px 45px;
+     }
+
+     .footer-content .site-logo img{
+          width: 250px;
+          height: 63px;
+     }
+
+     .site-logo{
+          margin-bottom: 10px;
+     }
+}
+
+/* a bit larger screen then mobile & tabs*/
+@media only screen and (min-width: 601px) and (max-width: 767px){
+     .hero-section{
+          width: 100%;
+     }
+
+     .hero-content{
+          height: 600px;
+          width: 100%;
+          justify-content: space-evenly;
+     }
+
+     .hero-left-content-part{
+          margin-bottom: 50px;
+     }
+
+     .hero-left-content-part #hero-section-title{
+          font-size: 36px;
+          line-height: 50px;
+          font-weight: 700;
+     }
+
+     .hero-image-part img{
+          width: 330px;
+     }
+
+     .players{
+          width: 45%;
+          grid-template-columns: repeat(1,1fr);
+     }
+
+     .match-highlights{
+          flex-direction: column;
+          align-items: flex-start;
+          width: 80%;
+     }
+
+     .match-left-side{
+          padding: 0;
+          margin-bottom: 29px;
+     }
+     .match-left-side #match-heading{
+          font-size: 30px;
+          line-height: 40px;
+          font-weight: 700;
+     }
+     
+     .match-right-side img{
+          width: 328px;
+     }
+
+     .section-title{
+          font-size: 30px;
+          line-height: 40px;
+          padding-left: 16px;
+          margin-bottom: 20px;
+     }
+
+     .latest-videos{
+          width: 80%;
+          grid-template-columns: repeat(2,1fr);
+          grid-row-gap: 10px;
+     }
+
+     .input-field input{
+          margin-right: 20px;
+          padding: 10px 80px;
+     }
+
+     #newsletter-section .btn{
+          padding: 8px 30px;
+     }
+
+     .footer-content .site-logo img{
+          width: 250px;
+          height: 63px;
+     }
+
+}
+
+/* medium size screens  */
+@media only screen and (min-width: 768px) and (max-width: 1100px){
+     .hero-section{
+          width: 100%;
+     }
+
+     .hero-content{
+          height: 600px;
+          width: 100%;
+          justify-content: space-evenly;
+     }
+
+     .hero-left-content-part{
+          margin-bottom: 50px;
+     }
+
+     .hero-left-content-part #hero-section-title{
+          font-size: 36px;
+          line-height: 50px;
+          font-weight: 700;
+     }
+
+     .hero-image-part img{
+          width: 330px;
+     }
+     .players{
+          width: 90%;
+          grid-template-columns: repeat(2,1fr);
+     }
+
+     .match-highlights{
+          flex-direction: column;
+          align-items: flex-start;
+          width: 80%;
+     }
+
+     .match-left-side{
+          padding: 0;
+          margin-bottom: 29px;
+     }
+     .match-left-side #match-heading{
+          font-size: 30px;
+          line-height: 40px;
+          font-weight: 700;
+     }
+     
+     .match-right-side img{
+          width: 328px;
+     }
+
+     .section-title{
+          font-size: 30px;
+          line-height: 40px;
+          padding-left: 16px;
+          margin-bottom: 20px;
+     }
+
+     .latest-videos{
+          width: 80%;
+          grid-template-columns: repeat(2,1fr);
+          grid-row-gap: 10px;
+     }
+}
+
+
+/* custom media queries for players and newletter part */
+@media only screen and (min-width: 735px) and (max-width: 767px){
+     .players{
+          width: 94%;
+          grid-template-columns: repeat(2,1fr);
+     }
+}
+
+
+@media only screen and (min-width: 779px) and (max-width: 800px){
+     .players{
+          width: 90%;
+          grid-template-columns: repeat(2,1fr);
+     }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1100px){
+     .players{
+          width: 70%;
+          grid-template-columns: repeat(2,1fr);
+     }
+}
+
+@media only screen and (min-width: 365px) and (max-width: 450px){
+     .players{
+          width: 90%;
+          grid-template-columns: repeat(1,1fr);
+     }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 629px){
+     .input-field input{
+          margin-right: 20px;
+          padding: 10px 60px;
+     }
+
+     #newsletter-section .btn{
+          padding: 8px 20px;
+     }
+}
