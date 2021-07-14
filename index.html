@@ -15,19 +15,22 @@
      <title>Responsive Football Landing Page</title>
 </head>
 <body>
+     <!------------ main part ------------>
      <main>
           <!------------ hero image part ------------>
           <section class="hero-section">
-               <div class="hero-left-content-part">
-                    <h1 id="hero-section-title">
-                         Conmebol<br>Copa America<br>2021
-                    </h1>
-                    <a href="https://www.uefa.com/" class="btn">
-                         Watch Live &nbsp;<i class="fas fa-arrow-right"></i>
-                    </a>
-               </div>
-               <div class="hero-image-part">
-                    <img src="assets/images/banner.png" alt="banner">
+               <div class="hero-content">
+                    <div class="hero-left-content-part">
+                         <h1 id="hero-section-title">
+                              Conmebol<br>Copa America<br>2021
+                         </h1>
+                         <a href="https://www.uefa.com/" class="btn">
+                              Watch Live &nbsp;<i class="fas fa-arrow-right"></i>
+                         </a>
+                    </div>
+                    <div class="hero-image-part">
+                         <img src="assets/images/banner.png" alt="banner">
+                    </div>
                </div>
           </section>
 
@@ -194,12 +197,52 @@
           </section>
 
           <!------------ match section ------------>
-          <section class="match-section .section-container">
-               <div class="match-left-side">
-
+          <section class="match-section section-container">
+               <div class="match-highlights">
+                    <div class="match-left-side">
+                         <h1 id="match-heading">
+                              All Highlights<br>Copa America 2021
+                         </h1>
+                         <p class="match-details">
+                              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                         </p>
+                         <a href="https://www.uefa.com/" class="btn">
+                              Watch Live &nbsp;<i class="fas fa-arrow-right"></i>
+                         </a>
+                    </div>
+                    <div class="match-right-side">
+                         <img src="assets/images/match.jpg" alt="match">
+                    </div>
                </div>
-               <div class="match-right-side">
-                    
+          </section>
+
+          <!-- latest-match-videos section -->
+          <section class="latest-match-videos section-flex-direction-column">
+               <div class="section-name">
+                    <h1 class="section-title">Some Exciting Moments</h1>
+               </div>
+               <div class="section-width-1050px latest-videos">
+                    <div class="video">
+                         <iframe class="single-video" src="https://www.youtube.com/embed/Vg62e_4iqOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video">
+                         <iframe class="single-video" src="https://www.youtube.com/embed/Ov_vLuUq0H8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video">
+                         <iframe class="single-video" src="https://www.youtube.com/embed/04-R_ARsklg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+               </div>
+          </section>
+
+          <!-- newsletter part -->
+          <section id="newsletter-section">
+               <div class="input-field">
+                    <input type="email" name="email" id="mail" placeholder="Write Your Email Here">
+               </div>
+               <div class="subscribe-button">
+                    <a href="https://www.uefa.com/" class="btn">
+                         Subscribe to Our Newsletter
+                    </a>
                </div>
           </section>
      </main>
