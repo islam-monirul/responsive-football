@@ -568,7 +568,7 @@
 
 @media only screen and (min-width: 321px) and (max-width: 400px){
      .input-field input{
-          padding: 10px 10px;
+          padding: 10px 5px;
      }
 
      #newsletter-section .btn{
@@ -577,8 +577,16 @@
 }
 
 @media only screen and (max-width: 320px){
+     .hero-image-part img{
+          width: 240px;
+     }
+
+     .match-right-side img{
+          width: 240px;
+     }
+
      .input-field input{
-          padding: 10px 35px;
+          padding: 10px 5px;
      }
 
      #newsletter-section .btn{
