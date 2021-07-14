@@ -14,6 +14,12 @@ body{
      font-family: 'Poppins', sans-serif;
 }
 
+.section-container{
+     padding: 70px 0;
+     display: flex;
+     justify-content: center;
+}
+
 /* -----------------------
      hero section styles 
      --------------------------------*/
@@ -22,11 +28,11 @@ body{
      background-color: #2D25A0;
      display: flex;
      justify-content: space-evenly;
-     align-items: center;
+     align-items:center;
      width: 100%;
 }
 
-.hero-left-content-part .hero-section-title{
+.hero-left-content-part #hero-section-title{
      font-size: 64px;
      font-weight: 700;
      line-height: 80px;
@@ -60,7 +66,38 @@ body{
 /* -----------------------
      players section styles 
      --------------------------------*/
+.players{
+     width: 1050px;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-column-gap: 30px;
+     grid-row-gap: 27px;
+}
 
+.individual-player{
+     padding: 15px;
+     background-color: #ffffff;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.individual-player .player-image img{
+     width: 300px;
+     height: 246px;
+}
+
+.individual-player .player-info .player-name{
+     font-size: 28px;
+     font-weight: 700;
+     margin-top: 16px;
+     margin-bottom: 10px;
+}
+
+.individual-player .player-info .player-bio{
+     color: #6C6C6C;
+     font-size: 16px;
+     font-weight: normal;
+     margin-top: 0;
+}
 
 /* -----------------------
      footer styles
@@ -93,11 +130,20 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
+     transition: all 0.8s ease;
+}
+
+.social-icon-container:hover{
+     background-color: black;
 }
 
 .single-icon{
      color: #969BAB;
      font-size: 17px;
+}
+
+.social-icon-container:hover .single-icon{
+     color: #E7E7E8;
 }
 
 .footer-content .copyright p{
